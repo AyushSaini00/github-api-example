@@ -1,0 +1,28 @@
+{
+  "name": "github-api-example",
+  "version": "1.0.0",
+  "description": "Experimenting with the github API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyushSaini00/github-api-example.git"
+  },
+  "keywords": [
+    "github",
+    "github api"
+  ],
+  "author": "Ayush Saini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AyushSaini00/github-api-example/issues"
+  },
+  "homepage": "https://github.com/AyushSaini00/github-api-example#readme",
+  "dependencies": {
+    "@octokit/core": "^3.5.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
